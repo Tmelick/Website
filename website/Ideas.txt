@@ -1,0 +1,9 @@
+Create two databases that store the users the exact same way. The second database
+is a security check incase the first database is droped.
+
+Store the url for the pictures into the database and call that url as a refrence 
+for the location of the picture. 
+
+To do the friend list search make a copy of the profile page and just send all the
+user information to the search page. Then add on the searched name. Put the results
+in the middle of the screen where the status updates will go. 

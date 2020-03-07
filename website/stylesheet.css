@@ -1,0 +1,94 @@
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: black;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 40%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: relative;
+  opacity:0.6;
+
+}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} 
+.loginButton{
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signUpButton{
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Sign-Out-Button{
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  position:absolute;
+  bottom:-57px;
+  right:0px;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.imgDiv{
+    border: 1px solid white;
+    width:400px;
+    height:500px;
+    position: absolute;
+    right:0px;
+    top:0px;
+    float:right;
+}
+.statusUpdates{
+    top:0px;
+    border: 1px solid white;
+    width:420px;
+    height:98%;
+    position:absolute;
+    float:center;
+    left: 30%;
+    right: 50%;
+}
+/*provides hover light up when hovering over buttons */
+.loginButton:hover {opacity: 1}
+.signUpButton:hover {opacity: 1}
+.Sign-Out-Button:hover{opacity: 1}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {opacity: 1}
